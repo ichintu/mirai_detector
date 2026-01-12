@@ -1,0 +1,14 @@
+[package]
+name = mirai_detector
+version = 0.1.0
+summary = Zeek script to detect Mirai botnet scanning and C2 activity
+description = Detects network behaviors associated with the Mirai IoT botnet using Zeek, including scanning patterns and suspicious connections.
+license = Apache 2.0
+
+[zeek]
+script = mirai.zeek
+min_version = 4.0
+
+[maintainer]
+name = ichintu
+email = unknown
